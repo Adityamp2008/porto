@@ -1,0 +1,45 @@
+.bullet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 50%;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.musik, .biodata, .alat {
+  font-size: 20px;
+  font-family: Sans-Serif;
+  position: relative;
+  margin: 10px;
+  top: 40%;
+  left: 3%;
+  height: 10%;
+  width: 90%;
+  border-radius: 100px;
+  box-shadow: 0 10px 0 black;
+}
+.musik:hover, .biodata:hover, .alat:hover{
+  box-shadow: 0 5px 0 black;
+  top: 41%;
+}
+.judul {
+  text-align: center;
+  color: white;
+}
+.tab-bio, .tab-musik, .tab-alat {
+  display: none;
+}
+#back {
+  border: none;
+  background-color: lightgrey;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
